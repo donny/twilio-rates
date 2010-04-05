@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Unofficial Twilio International Outbound Rates API</title>
+</head>
+
+<body>
+
+<div style="margin:40px;">
+
+<h2 style="color:B0273E;">what:</h2>
+<p>An <em>unofficial</em> Twilio international outbound rates API.</p>
+
+<h2 style="color:B0273E;">endpoint:</h2>
+<pre>http://twilio-rates.appspot.com/calculate/{number}/{duration}</pre>
+<pre>
+number: the outbound international number
+duration: the call duration in minutes
+</pre>
+
+<h2 style="color:B0273E;">example:</h2>
+<pre>
+http://twilio-rates.appspot.com/calculate/18778894546/3
+
+{"status": "OK", "country": "United States", "rate": "0.030",
+"total_rate": "0.09", "duration": "3"}
+</pre>
+
+<h2 style="color:B0273E;">code:</h2>
+<pre>http://github.com/donny/twilio-rates/</pre>
+
+</div>
+
+</body>
+
+</html>
